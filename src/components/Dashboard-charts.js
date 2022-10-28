@@ -7,9 +7,9 @@ import HighchartsReact from 'highcharts-react-official';
 const DashboardCharts = (props) => {
    
     return(
-        <Card>
+        <div>
                 <HighchartsReact highcharts={Highcharts} options={props.options} />
-        </Card>
+        </div>
     )
 }
 export default DashboardCharts

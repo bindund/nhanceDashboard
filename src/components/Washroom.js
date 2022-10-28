@@ -4,9 +4,9 @@ import Card from 'react-bootstrap/Card';
 
 const Washroom = () => {
     return(
-        <Card>
+        <div>
             wr
-        </Card>
+        </div>
     )
 }
 export default Washroom

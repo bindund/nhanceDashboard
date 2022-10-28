@@ -5,8 +5,8 @@ const Consumption = () => {
 
     return(
         <div>
-        <span>Energy Consumption</span>
-        <h4>95.17 KW</h4>
+        <span style={{fontSize:"0.7rem" , position:"relative" , top:"-50px" , fontWeight:"bold"}}>Energy Consumption</span>
+        <h4 style={{verticalAlign:"middle"}}>95.17 KW</h4>
         </div>
     )
 }

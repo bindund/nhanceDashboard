@@ -3,9 +3,9 @@ import Card from 'react-bootstrap/Card';
 
 const Rooms = () => {
     return(
-        <Card>
+        <div>
         roo
-    </Card>
+    </div>
     )
 }
 export default Rooms

@@ -3,9 +3,9 @@ import Card from 'react-bootstrap/Card';
 
 const WashroomAqi = () => {
     return(
-        <Card>
+        <div>
             Apui
-        </Card>
+        </div>
     )
 }
 export default WashroomAqi
