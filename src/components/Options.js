@@ -3,10 +3,10 @@
  export const optionsEnergySource = {
     chart: {
       type: "pie",
-      height: (9 / 25 * 100) + '%'
+      height: "100%"
     },
     title: {
-      text: ""
+      text: "Energy Sources"
     },
     credits: {
       enabled: false
@@ -27,7 +27,7 @@
         color: "#006600",
         lineWidth: 1,
         marker: {
-        //   enabled: false,
+          enabled: false,
           symbol: "circle",
           radius: 3,
           states: {
@@ -54,7 +54,7 @@
    export const areaOptions = {
     chart: {
       type: 'area',
-      height: (9 / 25 * 100) + '%'
+      height: '200rem'
     },
     title: {
       text: 'Energy consuption History'
@@ -84,7 +84,7 @@
    export const lineOptions = {
     chart: {
       type: 'line',
-      height: (9 / 25 * 100) + '%'
+      // height: (9 / 25 * 100) + '%'
     },
     title: {
       text: 'My chart'
@@ -101,7 +101,7 @@
         colors: ['#01BAF2', '#71BF45'],
         chart: {
         type: 'pie',
-        height: (9 / 50 * 100) + '%'
+        // height: (9 / 50 * 100) + '%'
         },
         accessibility: {
         point: {
@@ -139,7 +139,7 @@
             colors: ['#01BAF2', '#71BF45'],
             chart: {
             type: 'pie',
-            height: (9 / 50 * 100) + '%'
+            // height: (9 / 50 * 100) + '%'
             },
             accessibility: {
             point: {
@@ -177,7 +177,7 @@
                 colors: ['#01BAF2', '#71BF45'],
                 chart: {
                 type: 'pie',
-                height: (9 / 50 * 100) + '%'
+                // height: (9 / 50 * 100) + '%'
                 },
                 accessibility: {
                 point: {
