@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 const Rooms = () => {
     return(
         <div>
-        roo
+        Wash rooms
     </div>
     )
 }

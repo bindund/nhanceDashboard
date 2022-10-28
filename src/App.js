@@ -1,5 +1,4 @@
 import React from "react";
-import Reports from "./components/Reports";
 import DashboardCharts from "./components/Dashboard-charts";
 import Consumption from "./components/Consumption";
 import {
@@ -53,7 +52,7 @@ function App() {
                     height: "13rem",
                   }}
                 >
-                  <DashboardCharts  options={optionsEnergySource} />
+                  <DashboardCharts options={optionsEnergySource} />
                 </div>
               </div>
               <div class="col-md-12">
@@ -63,7 +62,7 @@ function App() {
                     height: "16rem",
                   }}
                 >
-                  <DashboardCharts options={areaOptions}/>
+                  <DashboardCharts options={areaOptions} />
                 </div>
               </div>
             </div>
@@ -80,7 +79,7 @@ function App() {
               <Alerts />
             </div>
           </div>
-          
+
           <div class="col-md-3">
             <div class="box">
               <DashboardCharts options={lineOptions} />
@@ -93,8 +92,8 @@ function App() {
           </div>
           <div class="col-md-3">
             <div class="box">
-            {/* <DashboardCharts /> */}
-            {socialGovOptions.map((ele) => {
+              {/* <DashboardCharts /> */}
+              {socialGovOptions.map((ele) => {
                 return <DashboardCharts options={ele} />;
               })}
             </div>
@@ -111,7 +110,7 @@ function App() {
           </div>
           <div class="col-md-3">
             <div class="box">
-              <DashboardCharts options={optionsEnergySource} />
+              {/* <DashboardCharts options={optionsEnergySource} /> */}
             </div>
           </div>
           <div class="col-md-3">
@@ -123,7 +122,7 @@ function App() {
                     height: "12rem",
                   }}
                 >
-                  <Consumption />
+                  {/* <Consumption /> */}
                 </div>
               </div>
               <div class="col-md-6">
@@ -136,15 +135,15 @@ function App() {
                   <DashboardCharts />
                 </div>
               </div>
-              </div>
-              </div>
-              <div class="col-md-3">
+            </div>
+          </div>
+          <div class="col-md-3">
             <div class="box">
               <DashboardCharts />
             </div>
           </div>
         </div>
-        </div>
+      </div>
     </div>
   );
 }
